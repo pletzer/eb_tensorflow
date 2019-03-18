@@ -216,42 +216,42 @@ exts_list = [
         'source_urls': ['https://pypi.python.org/packages/source/s/sympy/'],
     }),
 
-    ('MarkupSafe', '1.0', {    # For Mako
+    ('MarkupSafe', '1.1.1', {    # For Mako
         'source_tmpl': 'MarkupSafe-%(version)s.tar.gz',
         'source_urls': ['https://pypi.python.org/packages/source/M/MarkupSafe/'],
         'modulename': 'markupsafe',
     }),
-    ('requests', '2.18.4', {  # For ObsPy and CacheControl
+    ('requests', '2.21.0', {  # For ObsPy and CacheControl
         'source_urls': ['https://pypi.python.org/packages/source/r/requests/'],
     }),
-    ('msgpack-python', '0.4.8', { # for CacheControl
+    ('msgpack-python', '0.5.6', { # for CacheControl
         'source_urls': ['https://pypi.python.org/packages/source/m/msgpack-python/'],
         'modulename': 'msgpack',
     }),
-    ('CacheControl', '0.12.3', {  # for scikit-bio
+    ('CacheControl', '0.12.5', {  # for scikit-bio
         'source_urls': ['https://pypi.python.org/packages/source/C/CacheControl/'],
         'modulename': 'cachecontrol',
     }),
-    ('natsort', '5.1.0', {        # for scikit-bio
+    ('natsort', '6.0.0', {        # for scikit-bio
         'source_urls': ['https://pypi.python.org/packages/source/n/natsort/'],
     }),
-    ('scikit-bio', '0.5.1', {
+    ('scikit-bio', '0.5.5', {
         'source_tmpl': 'scikit-bio-%(version)s.tar.gz',
         'source_urls': ['https://pypi.python.org/packages/source/s/scikit-bio/'],
         'modulename': 'skbio',
     }),
-    ('toolz', '0.8.2', {       # for dask
+    ('toolz', '0.9.0', {       # for dask
         'source_urls': ['https://pypi.python.org/packages/source/t/toolz/'],
     }),
-    ('dask', '0.15.4', {       # for scikit-image
+    ('dask', '1.1.4', {       # for scikit-image
         'source_urls': ['https://pypi.python.org/packages/source/d/dask/'],
     }),
-    ('scikit-image', '0.13.1', {
+    ('scikit-image', '0.14.2', {
         'source_tmpl': 'scikit-image-%(version)s.tar.gz',
         'source_urls': ['https://pypi.python.org/packages/source/s/scikit-image/'],
         'modulename': 'skimage',
     }),
-    ('scikit-learn', '0.19.1', {
+    ('scikit-learn', '0.20.3', {
         'source_tmpl': 'scikit-learn-%(version)s.tar.gz',
         'source_urls': ['https://pypi.python.org/packages/source/s/scikit-learn/'],
         'modulename': 'sklearn',
@@ -260,41 +260,41 @@ exts_list = [
     ('emcee', '2.2.1', {
         'source_urls': ['https://pypi.python.org/packages/source/e/emcee/'],
     }),
-    ('pystan', '2.17.0.0', {
+    ('pystan', '2.18.1.0', {
         'source_urls': ['https://pypi.python.org/packages/source/p/pystan/'],
     }),
 
-    ('PyYAML', '3.12', {   # For Keras
+    ('PyYAML', '5.1', {   # For Keras
         'source_tmpl': SOURCE_ZIP,
         'source_urls': ['https://pypi.python.org/packages/source/P/PyYAML/'],
         'modulename': 'yaml',
     }),
-    ('joblib', '0.11', {
+    ('joblib', '0.13.2', {
         'source_urls': ['https://pypi.python.org/packages/source/j/joblib/'],
     }),
-    ('SQLAlchemy', '1.1.15', { # For ObsPy
+    ('SQLAlchemy', '1.3.1', { # For ObsPy
         'source_urls': ['https://pypi.python.org/packages/source/s/SQLAlchemy/'],
         'modulename': 'sqlalchemy',
     }),
-    ('future', '0.16.0', {    # For ObsPy
+    ('future', '0.17.1', {    # For ObsPy
         'source_urls': ['https://pypi.python.org/packages/source/f/future/'],
     }),
-    ('obspy', '1.1.0', { 
+    ('obspy', '1.1.1', { 
         'source_tmpl': SOURCE_ZIP,
         'source_urls': ['https://pypi.python.org/packages/source/o/obspy/'],
     }),
-    ('pyFFTW', '0.10.4', {
+    ('pyFFTW', '0.11.1', {
         'source_urls': ['https://pypi.python.org/packages/source/p/pyFFTW/'],
         'modulename': 'pyfftw',
     }),
-    ('pybedtools', '0.7.10', {
+    ('pybedtools', '0.8.0', {
         'source_urls': ['https://pypi.python.org/packages/source/p/pybedtools/'],
     }),
-    ('scikit-umfpack', '0.3.1', {
+    ('scikit-umfpack', '0.3.2', {
         'source_urls': ['https://pypi.python.org/packages/source/s/scikit-umfpack/'],
         'modulename': 'scikits.umfpack',
     }),
-    ('qutip', '4.2.0', {
+    ('qutip', '4.3.1', {
         'source_urls': ['https://pypi.python.org/packages/source/q/qutip/'],
     }),
     ('Mako', '1.0.7', {        # For skcuda (and others), weirdly.
