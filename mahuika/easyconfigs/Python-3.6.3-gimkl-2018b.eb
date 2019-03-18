@@ -28,7 +28,7 @@ dependencies = [
     ('libreadline', '6.3'),           # pulls in ncurses
     ('libxslt', '1.1.29'),            # for lxml.  brings in libxml2 and zlib dependencies.
     ('LLVM', llvm_version),           # for llvmlite (for numba)
-    ('netCDF', '4.4.1'),              # for netCDF4, also pulls in HDF5
+    ('netCDF', '4.6.2'),              # for netCDF4, also pulls in HDF5
     ('SQLite', '3.16.2'),             # for IPython and general use
     ('SuiteSparse', '4.5.4'),         # for scikit-umfpack
     ('Tk', '8.6.6'),                  # for Py6S

@@ -1,0 +1,24 @@
+name = 'SuiteSparse'
+version = '4.5.4'
+
+homepage = 'http://faculty.cse.tamu.edu/davis/suitesparse.html'
+description = """SuiteSparse is a collection of libraries manipulate sparse matrices."""
+
+toolchain = {'name': 'gimkl', 'version': '2018b'}
+toolchainopts = {'opt': True, 'unroll': True, 'pic': True, 'openmp': True}
+
+source_urls = ['http://faculty.cse.tamu.edu/davis/SuiteSparse/']
+sources = [SOURCE_TAR_GZ]
+
+metis = 'METIS'
+metis_ver = '5.1.0'
+#metis = 'ParMETIS'
+#metis_ver = '4.0.3'
+
+dependencies = [(metis, metis_ver)]
+if metis == 'ParMETIS':
+    versionsuffix = '-%s-%s' % (metis, metis_ver)
+
+maxparallel = 1
+
+moduleclass = 'numlib'
