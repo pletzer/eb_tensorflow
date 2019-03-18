@@ -17,9 +17,9 @@ builddependencies = [
 ]
 
 dependencies = [
-    ('Python', '3.6.6'),
-    ('wheel', '0.31.1', versionsuffix),
-    ('h5py', '2.8.0', versionsuffix),
+    ('Python', '3.6.3'),
+    #('wheel', '0.31.1', versionsuffix),
+    #('h5py', '2.8.0', versionsuffix),
 ]
 
 use_pip = True
