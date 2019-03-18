@@ -73,10 +73,10 @@ exts_list = [
     ('wcwidth', '0.1.7', {     # for prompt_toolkit
         'source_urls': ['https://pypi.python.org/packages/source/w/wcwidth/'],
     }),
-    ('prompt_toolkit', '1.0.15', {   # For ipython
+    ('prompt_toolkit', '2.0.7', {   # For ipython
         'source_urls': ['https://pypi.python.org/packages/source/p/prompt_toolkit/'],
     }),
-    ('Pygments', '2.2.0', {   # For ipython and skbio
+    ('Pygments', '2.3.1', {   # For ipython and skbio
         'source_urls': ['https://pypi.python.org/packages/source/P/Pygments/'],
         'modulename': 'pygments',
     }),
@@ -84,22 +84,23 @@ exts_list = [
         'source_tmpl': SOURCE_ZIP,
         'source_urls': ['https://pypi.python.org/packages/source/s/simplegeneric/'],
     }),
-    ('pickleshare', '0.7.4', {   # For ipython
+    ('pickleshare', '0.7.5', {   # For ipython
         'source_urls': ['https://pypi.python.org/packages/source/p/pickleshare/'],
     }),
-    ('ptyprocess', '0.5.2', {   # For pexpect
+    ('ptyprocess', '0.6.0', {   # For pexpect
         'source_urls': ['https://pypi.python.org/packages/source/p/ptyprocess/'],
     }),
-    ('pexpect', '4.2.1', {   # For ipython
+    ('pexpect', '4.6.0', {   # For ipython
         'source_urls': ['https://pypi.python.org/packages/source/p/pexpect/'],
     }),
-    ('ipython', '6.2.1', {
+    ('ipython', '7.3.0', {
         'source_urls': ['https://pypi.python.org/packages/source/i/ipython/'],
         'modulename': 'IPython',
     }),
     ('Cython', '0.28.5', {
         'source_urls': ['https://pypi.python.org/packages/source/c/Cython/'],
     }),
+    # failed with python 3.7 (pletzer)
     #('line_profiler', '2.0', {
     #    'source_urls': ['https://pypi.python.org/packages/source/l/line_profiler/'],
     #}),
