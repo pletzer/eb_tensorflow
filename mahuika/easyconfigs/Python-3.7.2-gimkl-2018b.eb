@@ -264,7 +264,7 @@ exts_list = [
         'source_urls': ['https://pypi.python.org/packages/source/p/pystan/'],
     }),
 
-    ('PyYAML', '5.1', {   # For Keras
+    ('PyYAML', '3.12', { #'5.1', {   # For Keras
         'source_tmpl': SOURCE_ZIP,
         'source_urls': ['https://pypi.python.org/packages/source/P/PyYAML/'],
         'modulename': 'yaml',
@@ -302,7 +302,7 @@ exts_list = [
         'source_urls': ['http://pypi.python.org/packages/source/M/Mako/'],
         'modulename': 'mako',
     }),
-    ('click', '6.7', {              # For cligj (Python-Geo)
+    ('click', '6.7', { # '7.0', {              # For cligj (Python-Geo)
         'source_tmpl': 'click-%(version)s.tar.gz',
         'source_urls': ['https://pypi.python.org/packages/source/c/click'],
     }),
@@ -317,7 +317,7 @@ exts_list = [
     ('ujson', '1.35', {      # For blobtools 
         'source_urls': ['https://pypi.python.org/packages/source/u/ujson/'],
     }),
-    ('xlrd', '1.1.0', {      # For Pandas 
+    ('xlrd', '1.2.0', {      # For Pandas 
         'source_urls': ['https://pypi.python.org/packages/source/x/xlrd/'],
     }),
 
@@ -327,29 +327,29 @@ exts_list = [
         'source_urls': ['https://pypi.python.org/packages/source/P/PrettyTable'],
         'modulename': 'prettytable',
     }),
-    ('Pysolar', '0.6', {     # For Py6S
+    ('Pysolar', '0.6', { # '0.8', {    # For Py6S
         'source_urls': ['https://pypi.python.org/packages/source/P/Pysolar'],
         'modulename': 'Pysolar',
     }),
-    ('Py6S', '1.7.0', {
+    ('Py6S', '1.7.2', {
         'source_tmpl': 'Py6S-%(version)s.tar.gz',
         'source_urls': ['https://pypi.python.org/packages/source/P/Py6S'],
         'modulename': 'Py6S',
     }),
-    ('pyproj', '1.9.5.1', {
+    ('pyproj', '2.1.1', {
         'source_tmpl': 'pyproj-%(version)s.tar.gz',
         'source_urls': ['https://pypi.python.org/packages/source/p/pyproj'],
     }),
-    ('patsy', '0.4.1', {
+    ('patsy', '0.4.1', { # '0.5.1', {
         'source_tmpl': 'patsy-%(version)s.zip',
         'source_urls': ['https://pypi.python.org/packages/source/p/patsy/'],
     }),
-    ('statsmodels', '0.8.0', {
+    ('statsmodels', '0.9.0', {
         'source_tmpl': 'statsmodels-%(version)s.tar.gz',
         'source_urls': ['https://pypi.python.org/packages/source/s/statsmodels/'],
     }),
 
-    ('deap', '1.0.2', {
+    ('deap', '1.0.2', { #'1.2.2', {
         'patches': ['deap-1.0.2_setup-open-README-utf8.patch'],
         'source_tmpl': '%(name)s-%(version)s.post2.tar.gz',
         'source_urls': ['https://pypi.python.org/packages/source/d/deap/'],
@@ -364,7 +364,7 @@ exts_list = [
         'source_tmpl': 'DendroPy-%(version)s.tar.gz',
         'source_urls': ['https://pypi.python.org/packages/source/d/dendropy/'],
     }),
-    ('reportlab', '3.4.0', {
+    ('reportlab', '3.5.13', {
         'source_tmpl': 'reportlab-%(version)s.tar.gz',
         'source_urls': ['https://pypi.python.org/packages/source/r/reportlab/'],
     }),
