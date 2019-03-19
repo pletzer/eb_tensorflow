@@ -1,6 +1,6 @@
 name = 'Python'
 version = '3.7.2'
-llvm_version = '4.0.0'
+llvm_version = '7.0.1'
 
 homepage = 'http://python.org/'
 description = "Python is a programming language that lets you work more quickly and integrate your systems more effectively."
