@@ -31,15 +31,10 @@ exts_list = [
         'source_tmpl': 'v%(version)s.tar.gz',
         'patches': [
             'TensorFlow-1.11.0_swig-env.patch',
-            'TensorFlow-1.11.0_remove-msse-hardcoding.patch',
-            'TensorFlow-1.12.0_lrt-flag.patch',
         ],
         'checksums': [
             '3c87b81e37d4ed7f3da6200474fa5e656ffd20d8811068572f43610cae97ca92',  # v1.12.0.tar.gz
-            'aa53c7f6d42b4a9e91e0ba639d79f69a7db3c0a88c3b8e43d332479b6368391a',  # TensorFlow-1.11.0_swig-env.patch
-            # TensorFlow-1.11.0_remove-msse-hardcoding.patch
-            'a0f00ee4d03bb4fd3a645ee06045cedaf97d0b85675ec35187e9dd7e479d7bb6',
-            '164d048c69671f870e306760ee7609564fe02bb6378a06414752f3d6da80a631',  # TensorFlow-1.12.0_lrt-flag.patch
+            '2db3f9e6a8b413fa0f346742581f082d',  # TensorFlow-1.11.0_swig-env.patch
         ],
     }),
 ]
